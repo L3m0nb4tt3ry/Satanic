@@ -3,3 +3,13 @@ Host: console.aws.amazon.com
 Accept: application/json, text/plain, */*
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36
 Cookie: aws-creds=XXX; aws-userInfo=YYY;
+
+
+Intersting endpoints
+/billing/rest/pig-proxy
+/billing/rest/v1.0/account
+
+Interesting facts
+
+aws-creds is a jwt token with potentially encrypted payload in "e"
+aws-userInfo is a like a key, its validated but not used to generate response
