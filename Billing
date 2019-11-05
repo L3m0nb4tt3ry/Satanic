@@ -1,0 +1,5 @@
+GET /billing/rest/v1.0/bill/invoice/list?month=9&year=2019 HTTP/1.1
+Host: console.aws.amazon.com
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36
+Cookie: aws-creds=XXX; aws-userInfo=YYY;
